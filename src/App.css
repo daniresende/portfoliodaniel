@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;  
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501; 
+}
+body{
+  font-family: "Roboto Condensed",   sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*Logo da navbar*/
+.logo{
+  width: 16.25rem;
+}
+/*Links da navbar*/
+nav a.nav-link {
+  font-size: 20px; 
+
+  cursor: pointer;
+  
+}
+nav ul li {
+ 
+  
+}
+.navbar-nav > li > a {
+   
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--primary-white);
+  border-top: 3px solid var(--primary-dark);
+  
+
+  
+}
+
+.navbartoda{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  
+  backdrop-filter: blur(40px);  
+  border-radius: 24px;
+  
+  
+}
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding:0 !important;
+  height: 6rem;
+  
+  
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 3px solid var(--primary-white);
+  color: var(--primary-white);
+}
+.navbar-nav > li > a:hover{
+  border-top: 3px solid var(--primary-white);
+  color: var(--primary-white);
+}
+.navbar-toggler-icon{
+  color:#fff;
+}
+
+
+.header-wrapper {
+  
+  position:relative;
+  background: url(https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-58182.jpg?w=826) no-repeat;
+  background-size: cover ;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  
+  display:flex; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed",   sans-serif;
+  
+  
+}
+.main-info h1 {
+  color: var(--primary-white);
+ 
+}
+
+.sobremim {
+  
+  
+  background: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=900&t=st=1681863064~exp=1681863664~hmac=2b83bb1850418cbe1532a5c7d048ec2f4079f127d9af8f03feae34adb3eb9d6b) no-repeat;
+  position:relative;
+  background-size: cover ;
+  background-position: center;
+  
+  color: var(--primary-white);
+  display:flex; 
+
+ 
+ font-size: 24px;
+ font-family: "Roboto Condensed",   sans-serif;
+
+
+
+  
+}
+
+
+
+
+
+
+
+.divsobre{
+  margin: 90px;
+}
+.tabelasobre{
+  text-align: center;
+  backdrop-filter: blur(90px);
+  list-style: none;
+  
+  max-width: fit-content;
+  border-radius: 24px;
+}
+
+.tabelasobre ul{
+  
+  list-style: none;
+}
+.sobremim p {
+  border-radius: 24px;
+  padding-left: 30px;
+  padding-right:30px;
+
+  backdrop-filter: blur(80px);
+}
+.sobremim h2 {
+  margin-top: 90px;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+.meustrabalhos {
+  position:relative;
+  background: url(https://i.pinimg.com/originals/a2/b7/4d/a2b74d342742cf7aeb55012d74dc697a.jpg) no-repeat;
+  background-size: cover ;
+  background-position: center;
+
+  color: var(--primary-white);
+  display:flex; 
+
+ 
+ font-size: 24px;
+ font-family: "Roboto Condensed",   sans-serif;
+ 
+}
+
+.meustrabalhos h2{
+  margin-top: 90px;
+  text-align: center;
+}
+
+.divmeustrabalhos{
+  margin: 90px;
+  backdrop-filter: blur(80px);
+  border-radius: 24px;
+  
+}
+.divmeustrabalhos img{
+
+  height: 80vh;
+  margin: 12px;
+ 
+  border-radius: 20px;
+  
+}
+.meustrabalhos p {
+  border-radius: 24px;
+  padding-left: 30px;
+  padding-right:30px;
+
+  backdrop-filter: blur(80px);
+}
+
+
+
+.curriculo {
+ 
+  background: url(https://wallpaperaccess.com/full/7246044.jpg) no-repeat;
+  position:relative;
+ background-size: cover ;
+  background-position: center;
+  height: 100vh;
+  color: var(--primary-white);
+  display:flex; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ flex-direction: column;
+ font-size: 24px;
+ font-family: "Roboto Condensed",   sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.botaodownload{
+  position:relative;
+ background-size: cover ;
+  background-position: center;
+  height: 100vh;
+  color: var(--primary-white);
+  display:flex; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ flex-direction: column;
+ font-size: 24px;
+ font-family: "Roboto Condensed",   sans-serif;
+ backdrop-filter: blur(90px);
+}
+
+.botaodownload > a.active, .botaodownload > a:focus {
+  border-top: 3px solid var(--primary-white);
+  backdrop-filter: blur(90px);
+}
+.botaodownload > a:hover{
+  border-top: 3px solid var(--primary-white);
+
+}
+
+
+
+.contato {
+  
+  position:relative;
+  background: url(https://wallpaperaccess.com/full/1145728.jpg) no-repeat;
+  background-size: cover ;
+  background-position: center;
+  height: 100vh;
+  color: var(--primary-white);
+  
+  display:flex; 
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+font-size: 24px;
+
+  font-family: "Roboto Condensed",   sans-serif;
+}
+
+#contato h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 24px;
+}
+#contato {
+  
+  border-radius: 24px;
+  backdrop-filter: blur(80px);
+ 
+}
+#contato ul{
+  margin: 24px;
+  padding-top: 10px;
+   list-style: none;
+}
+.typed-text{
+  font-size: 1.5rem;
+  color: var(--primary-white);
+}
+
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
+.btn-main-offer {
+    
+   
+    border-radius: 12px;
+    padding: 10px 12px 12px 12px;
+    color: #fff ;
+margin: 2rem; 
+backdrop-filter: blur(90px); 
+}
+.btn-main-offer:hover{
+  text-decoration: none;
+  
+  color: #fff ;
+  transition: .2s ease-in-out;
+}
